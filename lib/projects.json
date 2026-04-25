@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Power Outage Risk Modeling",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Analyzed outage data across 50 states and 2,000+ events to identify patterns."
+    },
+    {
+        "title": "Custom Language Model",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Built n-gram language models using large-scale text data."
+    },
+    {
+        "title": "Data Visualization Dashboard",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Designed interactive charts to explore datasets and uncover trends."
+    },
+    {
+        "title": "Recommendation System",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Developed a system to suggest content based on user preferences."
+    },
+    {
+        "title": "Web Portfolio",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Built a responsive personal website using HTML and CSS."
+    },
+    {
+        "title": "Exploratory Data Analysis",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Analyzed datasets to identify trends and key insights."
+    },
+    {
+        "title": "Machine Learning Model",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Trained models to predict outcomes using structured data."
+    },
+    {
+        "title": "Survey Analysis Project",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Processed and analyzed survey responses to extract insights."
+    },
+    {
+        "title": "Time Series Forecasting",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Predicted future trends using historical time-based data."
+    },
+    {
+        "title": "Clustering Analysis",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Grouped similar data points using unsupervised learning methods."
+    },
+    {
+        "title": "Text Analysis Project",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Analyzed text data to extract meaning and patterns."
+    },
+    {
+        "title": "Statistical Modeling",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Applied statistical techniques to model real-world data."
+    }
+]
