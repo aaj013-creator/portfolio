@@ -1,6 +1,7 @@
 html {
     color-scheme: light dark;
     --color-accent: oklch(65% 50% 0);
+    --border-color: oklch(50% 10% 200 / 40%);
 }
 
 body {
@@ -14,7 +15,6 @@ nav {
     display: flex;
     margin-bottom: 2rem;
     border-bottom: 1px solid var(--border-color);
-    --border-color: oklch(50% 10% 200 / 40%);
 }
 
 nav a {
@@ -81,4 +81,65 @@ textarea {
     right: 1rem;
     font-size: 80%;
     font-family: inherit;
+}
+
+.chart-container {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-block: 2em;
+}
+
+#projects-pie-plot {
+    max-width: 20em;
+    overflow: visible;
+}
+
+#projects-pie-plot path {
+    cursor: pointer;
+    transition: 300ms;
+}
+
+#projects-pie-plot:has(path:hover) path:not(:hover) {
+    opacity: 0.5;
+}
+
+.legend {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+    gap: 0.75em;
+    border: 1px solid var(--border-color);
+    padding: 1em;
+    margin: 0;
+    list-style: none;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    cursor: pointer;
+}
+
+.swatch {
+    width: 1em;
+    aspect-ratio: 1 / 1;
+    background: var(--color);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.selected {
+    --color: oklch(60% 45% 0) !important;
+}
+
+.selected:is(path) {
+    fill: var(--color);
+}
+
+.searchBar {
+    width: 100%;
+    margin-block: 1em;
+    padding: 0.5em;
 }
