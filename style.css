@@ -143,3 +143,71 @@ textarea {
     margin-block: 1em;
     padding: 0.5em;
 }
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 0.5rem 1rem;
+    margin: 1rem 0;
+}
+
+.stats dt {
+    font-weight: bold;
+    color: gray;
+}
+
+.stats dd {
+    margin: 0;
+}
+
+.gridlines line {
+    stroke: #ddd;
+}
+
+.gridlines path {
+    display: none;
+}
+
+circle {
+    transition: 200ms;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+circle:hover {
+    transform: scale(1.5);
+}
+
+circle.selected {
+    fill: #ff6b6b;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.25rem 0.75rem;
+}
+
+.info dt {
+    font-weight: bold;
+    color: gray;
+}
+
+.info dd {
+    margin: 0;
+}
+
+.tooltip {
+    position: fixed;
+    background: white;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 0.2);
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.tooltip[hidden] {
+    opacity: 0;
+    visibility: hidden;
+}
